@@ -9,9 +9,11 @@ import Routes from './main/routes';
 
 function App() {
   return (
-    <div className="container">
+    <div>
       <Menu />
+      <div className='container'>
       <Routes/>
+      </div>
     </div>
   );
 }
